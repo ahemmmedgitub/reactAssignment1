@@ -1,0 +1,47 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 900px;
+}
+.list-sub-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+.time-style {
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.logos {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.title-style {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.domain-style {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.delete-container {
+  flex-shrink: 1;
+  width: 100px;
+}
+.delete-logo {
+  border-width: 0px;
+  background-color: #ffffff;
+}
